@@ -1,6 +1,187 @@
-@media (min-width: 992px){
+@media (min-width: 1200px){
 	.body {
 	
+	// 	=========================== HEADER ==============================!//
+		.header {
+			.menu {
+				.menu__wrap {
+					.logo-flat {
+						.img-responsive{}
+						.title-icon {}
+					}
+					.toggle-normal {
+						.material-icons {
+						}
+					}
+				}
+			}
+			.header__background {
+			}
+		}
+		// 	=========================== V-CARD ==============================!//
+		.section {
+			.container {
+				width: 1000px;
+				.row {
+
+					.col-md-12 {
+						width: 100%;
+						float: left;
+
+						.card {
+							position: relative;
+							background-color: #fff;
+							transition: box-shadow .25s;
+							-webkit-transition: box-shadow .25s;
+							border-radius: 0 !important;
+							margin: 8px 0;
+							.right {
+
+							}
+							.card-content {
+								.info-headings {
+									.text-uppercase {}
+									.text-capitalize {}
+								}
+								.infos {
+									.profile-list {
+										.clearfix {
+											.title {
+											}
+											.content {
+											}
+										}
+									}
+								}
+								.links {
+									.social {
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		#v-card-holder {
+
+	  }
+		// 	=========================== EDUCATION ==============================!//
+		.section{
+			.section-title {}
+			.timeline-block {
+				.timeline-dot {
+					.timeline-content {
+						.timeline-title {}
+						.timeline-info {}
+						.modal-dot {
+							.fa-ellipsis-h {
+							}
+						}
+					}
+				}
+			}
+			.block-right .card-content::after {
+				left: 52%;
+				}
+		}
+		// 	=========================== SKILLS ==============================!//
+		.section{
+			.col-md-12 {
+			}
+			.col-md-4 {
+			}
+			.skills-title {
+			}
+			.text-center {
+			}
+			.skillbar {
+				.skillbar-title {
+				}
+				.skillbar-bar {
+				}
+				.skill-bar-percent {
+				}
+			}
+		}
+		// 	=========================== EXPERIENCE ==============================!//
+		.section{
+			.modal {
+				.modal-dialog {
+					.modal-content {
+						.modal-header {
+							.close {
+							}
+							.fa-close {
+							}
+							.modal-title {
+							}
+						}
+						.modal-body {
+						}
+						.modal-footer {
+						}
+					}
+				}
+			}
+				
+		}
+		// 	=========================== MODALS ==============================!//
+		.section{
+			.nav {
+				.active {
+				}
+				.waves-effect {
+				}
+			}
+			.tab-content {
+			}
+			.row{
+	
+			}
+		}
+		// 	=========================== PORTFOLIOS ==============================!//
+		.section{
+			.container {
+				.section-title {
+				}
+				.row {
+					.nav {
+						.active {
+						}
+						.waves-effect {
+						}
+					}
+					.tab-content {
+						.col-md-4 {
+							.port-effect-scale {
+								.popup-image {
+								}
+							}
+						}
+					}
+					.row{
+						.col-md-12 {
+							.center-block {
+								.fa {
+								}
+							}
+						}
+	
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 992px){
+	.body {
+		.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+			float: left;
+	  }
+		.col-md-4 {
+			width: 33.33333333%;
+	  }
 	// 	=========================== HEADER ==============================!//
 		.header {
 			.menu {

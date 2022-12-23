@@ -1,0 +1,114 @@
+// 	=========================== INTEREST ==============================!//
+.section {
+	.container {
+		.section-title {
+}
+	}
+}
+
+#interest{
+	margin-top: 80px;
+	#music::after{
+		content: "";
+		position: absolute;
+		top: calc(50% - 30px);
+		left: 50px;
+		width: 60px;
+		height: 60px;
+		background: url(./svg/music-svgrepo-com.svg);
+	}
+	#games::after{
+		content: "";
+		position: absolute;
+		top: calc(50% - 40px);
+		left: 50px;
+		width: 60px;
+		height: 60px;
+		background: url(./svg/game-svgrepo-com.svg);
+	}
+	#serials::after{
+		content: "";
+		position: absolute;
+		top: calc(50% - 40px);
+		left: 50px;
+		width: 60px;
+		height: 60px;
+		background: url(./svg/tv-svgrepo-com.svg) 0 0/100% 100% no-repeat;
+	}
+	#movies::after{
+		content: "";
+		position: absolute;
+		top: calc(50% - 40px);
+		left: 50px;
+		width: 60px;
+		height: 60px;
+		background: url(./svg/cinema-svgrepo-com.svg) 0 0/100% 100% no-repeat;
+	}
+	#nature::after{
+		content: "";
+		position: absolute;
+		top: calc(50% - 35px);
+		left: 50px;
+		width: 60px;
+		height: 60px;
+		background: url(./svg/nature-svgrepo-com.svg) 0 0/100% 100% no-repeat;
+	}
+	#diag::after{
+		content: "";
+		position: absolute;
+		top: calc(50% - 40px);
+		left: 50px;
+		width: 60px;
+		height: 60px;
+		background: url(./svg/car-repair-svgrepo-com.svg) 0 0/100% 100% no-repeat;
+	}
+}
+
+#interest span{
+	display: inline-block;
+	margin-top: 75px;
+}
+
+#interest .section-title{
+	position: relative;
+}
+
+#interest .text-uppercase::after{
+	content: "";
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background: url(./svg/heart-svgrepo-com\ .svg) no-repeat;
+	bottom: calc(50% - 30px);
+	left: 330px;
+}
+
+#interest .card .card-content {
+	background: #fff;
+	border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+	padding: 40px;
+	border-radius: 0 0 2px 2px;
+	line-height: 1.5;
+	box-shadow: inset 2px 2px 5px rgb(154 147 140 / 50%), 1px 1px 5px rgb(255 255 255);
+}
+
+#interest .card .row.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+	display: flex;
+}
+
+#interest .card .box {
+	color: #e88849;
+	width: 100%;
+	height: 105px;
+	padding-right: 0;
+	padding-left: 0;
+	box-shadow: inset 2px 2px 5px rgb(154 147 140 / 50%), 1px 1px 5px rgb(255 255 255);
+}
+
+#interest .card .box:nth-child(odd){
+	box-shadow:none;
+	background: #e88849;
+	color: #fff;
+}

@@ -1,4 +1,15 @@
-@import 'style/nullstyle'; // styles zeroing 
-@import 'fonts/fonts'; // Basic Styles
-@import 'style/style'; // Basic Styles
+@import 'style/nullstyle'; // styles zeroing
+@import 'fonts/fonts'; // fonts
+@import 'style/defaultStyle'; // basic properties of objects
+@import 'style/style'; // Basic 
+
+@import 'style/header'; // HEADER    //
+@import 'style/v-card'; // V-CARD   //
+@import 'style/skills'; // SKILLS  //
+@import 'style/portfolio'; // PORTFOLIOS //
+@import 'style/education'; // EDUCATION //
+@import 'style/experience'; // EXPERIENCE //
+@import 'style/interest'; // INTEREST  //
+
+
 @import 'style/@media'; // adaptive

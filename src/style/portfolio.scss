@@ -1,0 +1,85 @@
+	// 	=========================== PORTFOLIOS ==============================!//
+	.section{
+		.container {
+			#titlePortf{
+				position: relative;
+			}
+			#titlePortf::after {
+				content: "";
+				width: 60px;
+				height: 60px;
+				position: absolute;
+				left: 310px;
+				bottom: calc(50% - 20px);
+				background: url('./svg/portfolio-svgrepo-com.svg');
+			}
+			.items__portfolio{
+				width: 100%;
+				min-height: 650px;
+				margin: 0 auto;
+				text-align: center;
+				position: relative;
+			}
+			.item{
+			}
+			.arow-left{
+				position: absolute;
+				top: 50%;
+				left: 28px;
+				z-index: 10;
+			}
+			.arow-right{
+				position: absolute;
+				top: 50%;
+				right: 28px;
+				z-index: 10;
+				cursor: context-menu;
+			}
+			.arow-left::after{
+				content: "";
+				width: 80px;
+				height: 80px;
+				position: absolute;
+				top: calc(50% - 80px);
+				left: -10px;
+				background: url("./svg/arrow-left.svg") no-repeat;
+			}
+			.noMagic2.arow-left::after{
+				content: '';
+			 }
+			.arow-right::before{
+				content: "";
+				width: 80px;
+				height: 80px;
+				position: absolute;
+				top: calc(50% - 80px);
+				right: -10px;
+				background: url("./svg/arrow-right.svg") no-repeat;
+			}
+			.noMagic.arow-right::before{
+				content: '';
+			 }
+			.items__portfolio img{
+				width: 100vh;
+				height: 550px;
+			}
+			.one{
+				top: 100px;
+				left: 0px;
+			}
+			.two {
+				top: 100px;
+				left: 250px;
+			}
+			.three {
+				top: 100px;
+				left: 550px;
+			}
+			
+			
+		}
+		
+	}
+	#portfolios{
+		min-height: 700px;
+	}
