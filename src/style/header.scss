@@ -1,9 +1,14 @@
 // 	=========================== HEADER ==============================!//
 .header {
-	.menu-open{
-		
-	}
 	.menu {
+		position: fixed;
+		left: -225px;
+		width: 225px;
+		height: 100%;
+		top: 0;
+		z-index: 10;
+		text-align: left;
+		background: #f5f5f5;
 		.menu__wrap {
 			.menu__column{
 				display: flex;
@@ -102,32 +107,6 @@
 			}
 		}
 	}
-	.header__background {
-		position: relative;
-		display: block;
-		width: 100%;
-		height: 370px;
-		background: url(http://trimatrixlab.com/store/flatrica/images/backgrounds/background.jpg) no-repeat;
-		background-size: cover;
-		background-position: center center;
-		background-attachment: fixed;
-	}
-
-#home .menu {
-	position: fixed;
-	left: -225px;
-	width: 225px;
-	height: 100%;
-	top: 0;
-	z-index: 10;
-	text-align: left;
-	background: #06A763;
-}
-}
-#home .menu .logo-flat {
-	height: 200px;
-	margin-top: -14px;
-	background: #e88849;
 }
 #home #menuToggle {
 	position: absolute;
@@ -143,9 +122,6 @@
 	background: rgba(0, 0, 0, 0.06);
 	transition: all .5s ease-in-out;
 }
-#home #menuToggle .toggle-normal {
-	font-size: 31px;
-}
 #home .menu, #home .body-push {
 	transition: all .3s ease;
 }
@@ -155,18 +131,20 @@
 	top: -6px;
 	transition: .8s;
 }
-#home .menu {
-	position: fixed;
-	left: -225px;
-	width: 225px;
-	height: 100%;
-	top: 0;
-	z-index: 10;
-	text-align: left;
-	background: #f5f5f5;
-}
 .menu-open{
 	left: 0px !important;
 	box-shadow: inset 2px 2px 5px rgb(154 147 140 / 50%), 1px 1px 5px rgb(255 255 255);
 }
-
+.header__background {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-height: 370px;
+	background: url(http://trimatrixlab.com/store/flatrica/images/backgrounds/background.jpg) 0 0/100% 100% no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* For WebKit*/
+	-moz-background-size: cover;    /* Mozilla*/
+	-o-background-size: cover;      /* Opera*/
+}

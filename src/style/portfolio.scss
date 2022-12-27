@@ -1,15 +1,15 @@
 	// 	=========================== PORTFOLIOS ==============================!//
-	.section{
-		.container {
 			#titlePortf{
 				position: relative;
+				width: 350px;
+				margin: 0 auto;
 			}
 			#titlePortf::after {
 				content: "";
 				width: 60px;
 				height: 60px;
 				position: absolute;
-				left: 310px;
+				left: 0px;
 				bottom: calc(50% - 20px);
 				background: url('./svg/portfolio-svgrepo-com.svg');
 			}
@@ -20,20 +20,21 @@
 				text-align: center;
 				position: relative;
 			}
-			.item{
-			}
 			.arow-left{
+				transition-duration: 1s;
 				position: absolute;
 				top: 50%;
 				left: 28px;
 				z-index: 10;
+				cursor: url(./svg/arrow/arrow-cursor-left.svg) 2 2, default
 			}
 			.arow-right{
+				transition-duration: 1s;
 				position: absolute;
 				top: 50%;
 				right: 28px;
 				z-index: 10;
-				cursor: context-menu;
+				cursor: url(./svg/arrow/arrow-cursor-right.svg) 2 2, default
 			}
 			.arow-left::after{
 				content: "";
@@ -60,26 +61,8 @@
 				content: '';
 			 }
 			.items__portfolio img{
-				width: 100vh;
-				height: 550px;
+				width: 100%;
+				min-height: 550px;
+				transition-duration: 1s;
+
 			}
-			.one{
-				top: 100px;
-				left: 0px;
-			}
-			.two {
-				top: 100px;
-				left: 250px;
-			}
-			.three {
-				top: 100px;
-				left: 550px;
-			}
-			
-			
-		}
-		
-	}
-	#portfolios{
-		min-height: 700px;
-	}

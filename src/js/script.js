@@ -57,4 +57,3 @@ function forwardSlide() {
 	}
 
 }
-

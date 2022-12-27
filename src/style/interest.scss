@@ -12,25 +12,25 @@
 		content: "";
 		position: absolute;
 		top: calc(50% - 30px);
-		left: 50px;
+		left: calc(50% - 30px);
 		width: 60px;
 		height: 60px;
-		background: url(./svg/music-svgrepo-com.svg);
+		background: url(./svg/music-svgrepo-com.svg) no-repeat;
 	}
 	#games::after{
 		content: "";
 		position: absolute;
 		top: calc(50% - 40px);
-		left: 50px;
+		left: calc(50% - 30px);
 		width: 60px;
 		height: 60px;
-		background: url(./svg/game-svgrepo-com.svg);
+		background: url(./svg/game-svgrepo-com.svg)0 0/100% 100% no-repeat;
 	}
 	#serials::after{
 		content: "";
 		position: absolute;
 		top: calc(50% - 40px);
-		left: 50px;
+		left: calc(50% - 30px);
 		width: 60px;
 		height: 60px;
 		background: url(./svg/tv-svgrepo-com.svg) 0 0/100% 100% no-repeat;
@@ -39,7 +39,7 @@
 		content: "";
 		position: absolute;
 		top: calc(50% - 40px);
-		left: 50px;
+		left: calc(50% - 30px);
 		width: 60px;
 		height: 60px;
 		background: url(./svg/cinema-svgrepo-com.svg) 0 0/100% 100% no-repeat;
@@ -48,7 +48,7 @@
 		content: "";
 		position: absolute;
 		top: calc(50% - 35px);
-		left: 50px;
+		left: calc(50% - 30px);
 		width: 60px;
 		height: 60px;
 		background: url(./svg/nature-svgrepo-com.svg) 0 0/100% 100% no-repeat;
@@ -57,7 +57,7 @@
 		content: "";
 		position: absolute;
 		top: calc(50% - 40px);
-		left: 50px;
+		left: calc(50% - 20px);
 		width: 60px;
 		height: 60px;
 		background: url(./svg/car-repair-svgrepo-com.svg) 0 0/100% 100% no-repeat;
@@ -71,6 +71,8 @@
 
 #interest .section-title{
 	position: relative;
+	margin: 0 auto;
+	width: 300px;
 }
 
 #interest .text-uppercase::after{
@@ -80,7 +82,7 @@
 	position: absolute;
 	background: url(./svg/heart-svgrepo-com\ .svg) no-repeat;
 	bottom: calc(50% - 30px);
-	left: 330px;
+	left: 25px;
 }
 
 #interest .card .card-content {

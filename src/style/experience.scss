@@ -1,16 +1,5 @@
 	// 	=========================== EXPERIENCE ==============================!//
 	.section{
-		.block-left .card-content::after {
-			content: "";
-			width: 58px;
-			height: 4px;
-			position: absolute;
-			top: 26px;
-			left: 410px;
-			z-index: -2;
-			opacity: 0.4;
-			background: #e88849;
-	  }
 		#timeline-experience{
 			position: relative;
 		}
@@ -63,7 +52,9 @@
 			left: 8px;
 		}
 	  #EXPtitle{
+		margin: 0 auto;
 		position: relative;
+		width: 300px;
 		margin-top: 150px;
 	}
 	#EXPtitle::after{
@@ -73,7 +64,7 @@
 		width: 60px;
 		height: 60px;
 		top: calc(50% - 40px);
-		left: 300px;
+		left: -25px;
 
 	}
 	}

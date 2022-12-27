@@ -8,6 +8,26 @@
 	color: #616161;
 	font-family: 'Roboto', sans-serif;
 	.section{
+		position: relative;
+		padding-top: 15px;
+		padding-bottom: 30px;
+		-webkit-backface-visibility: hidden;
+		.container{
+			max-width: 1000px;
+			padding: 15px;
+			margin: 0 auto;
+			.row {
+				margin-right: -15px;
+				margin-left: -15px;
+				.col-md-12 {
+					float: left;
+					width: 100%;
+				}
+				.card {
+					margin: 8px 0;
+				}
+			}
+		}
 		.timeline-block:first-child {
 			margin-top: 0;
 	  }
